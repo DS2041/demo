@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState, useRef, useCallback } from "react";
-import { Chess, type Square, type Move as ChessMove } from "chess.js";
+import { Chess, type Square } from "chess.js";
 import { Chessboard } from "react-chessboard";
 import io from "socket.io-client";
 import toast from "react-hot-toast";
