@@ -6,6 +6,9 @@ import Image from 'next/image';
 import ChessBoard from '@/components/ChessBoard';
 import RoomCode from '@/components/RoomCode';
 
+// Add this export
+export const dynamic = 'force-dynamic'; // Disable static generation
+
 export default function PlayPage() {
     const searchParams = useSearchParams();
     const roomCode = searchParams.get('room') || 'default';
