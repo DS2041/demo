@@ -15,15 +15,6 @@ function PlayContent() {
 
   return (
     <main className="relative flex flex-col items-center justify-center min-h-screen text-white overflow-hidden">
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="/images/chess_bg.png"
-          alt="Chess background"
-          fill
-          className="object-cover opacity-30"
-          priority
-        />
-      </div>
 
       <header className="relative z-10 text-center mb-8 space-y-4">
         <div className="flex items-center justify-center gap-4">
